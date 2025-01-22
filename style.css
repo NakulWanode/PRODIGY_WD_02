@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #stopwatch {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #startBtn {
+    background-color: green;
+    color: white;
+  }
+  
+  #pauseBtn {
+    background-color: orange;
+    color: white;
+  }
+  
+  #resetBtn {
+    background-color: red;
+    color: white;
+  }
+  
+  #lapList {
+    list-style: none;
+    padding: 0;
+  }
